@@ -16,9 +16,9 @@ Based on the official images:
 2. Install docker-compose version >=1.6 
 3. Install apache2-utils
 
-Increase max_map_count on your host (Linux)
+### Increase max_map_count on your host (Linux)
 
-### You need to increase max_map_count on your Docker host:
+You need to increase max_map_count on your Docker host:
 
 ```$ sudo sysctl -w vm.max_map_count=262144```
 
