@@ -61,5 +61,5 @@ The Nginx Password Authentication is stored in ```nginx/config/.htpasswd```.
 
 To create a login and password use this utility ```htpasswd```.
 
-```htpasswd nginx/config/.htpasswd monitoring```  (sammy in this example)
+```htpasswd nginx/config/.htpasswd monitoring```  (monitoring in this example)
 
