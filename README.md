@@ -10,7 +10,7 @@ Based on the official images:
 
 # Requirements
 
-### Setup
+# Setup
 
 1. Install Docker 
 2. Install docker-compose version >=1.6 
