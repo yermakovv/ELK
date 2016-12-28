@@ -1,5 +1,5 @@
 
-# Docker ELK + NGINX stack
+# Docker ELK + Nginx stack
 Run (Elasticseach, Logstash, Kibana, Nginx) stack with Docker and Docker-compose.
 
 Based on the official images:
