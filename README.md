@@ -59,7 +59,7 @@ The Logstash default configuration is stored in ```logstash/config/logstash.conf
 The Nginx default configuration is stored in ```nginx/config/nginx.conf```.
 The Nginx Password Authentication is stored in ```nginx/config/.htpasswd```. 
 
-to create a login and password use this utility ```htpasswd```.
+To create a login and password use this utility ```htpasswd```.
 
 ```htpasswd nginx/config/.htpasswd monitoring```  (sammy in this example)
 
