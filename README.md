@@ -12,7 +12,7 @@ Based on the official images:
 
 # Setup
 
-1. Install Docker 
+1. Install docker 
 2. Install docker-compose version >=1.6 
 3. Install apache2-utils
 
