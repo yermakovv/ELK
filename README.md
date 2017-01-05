@@ -144,7 +144,9 @@ sudo touch /var/log/S3logs/S3.logs
 sudo chmod u+wr,g+wr,o+wr /var/log/S3logs/S3.logs
 ```
 Put the key in the same directory with the script
+
 Register S3 repository
+
 Run script
 ```
 python autobackup_logs_to_s3_repository.py -s3 repo_name -d 10
