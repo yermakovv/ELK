@@ -62,11 +62,11 @@ to create a login and password use this utility ```htpasswd```.
 
 ```htpasswd nginx/config/.htpasswd monitoring```  (sammy in this example)
 
-## Logrotation
+# Logs backup
 
 Before backup/restore, you need to install AWS Cloud plugin
 
-# Installation
+### Installation
 Or for ES version < 5.x
 ```
 cd /usr/share/elasticsearch
@@ -79,7 +79,7 @@ cd /usr/share/elasticsearch
 bin/elasticsearch-plugin install repository-s3
 ```
 
-# Backup and Restore
+## Backup and Restore
 
 ### Register S3 repository
 ```
