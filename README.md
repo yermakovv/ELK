@@ -124,9 +124,9 @@ curl -XPOST 'localhost:9200/_snapshot/repo_name/snapshot_name/_restore
  - List all snapshots
  ```curl -XGET "localhost:9200/_snapshot/repo_name/_all"``` 
  - Detail information of snapshot
- ```curl -XGET "localhost:9200/_snapshot/repo_name/dev_1"```
+ ```curl -XGET "localhost:9200/_snapshot/repo_name/snapshot_name"```
  - Delete a specify snapshot
- ```curl -XDELETE "localhost:9200/_snapshot/repo_name/dev_1"```
+ ```curl -XDELETE "localhost:9200/_snapshot/repo_name/snapshot_name"```
  - Delete all snapshots
  ```curl -XDELETE "localhost:9200/_snapshot/repo_name"```
 
