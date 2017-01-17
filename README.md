@@ -136,18 +136,18 @@ Before backup, you need to install python-paramiko
 
 ```sudo apt-get install python-paramiko```
 
-Create a log file
+ - Create a log file
 
 ```
 sudo mkdir /var/log/S3logs
 sudo touch /var/log/S3logs/S3.logs
 sudo chmod u+wr,g+wr,o+wr /var/log/S3logs/S3.logs
 ```
-Put the key in the same directory with the script
+ - Put the key in the same directory with the script
 
-Register S3 repository
+ - Register S3 repository
 
-Run script
+ - Run script
 ```
 python autobackup_logs_to_s3_repository.py -s3 repo_name -d 10
 ```
