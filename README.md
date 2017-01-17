@@ -132,7 +132,7 @@ curl -XPOST 'localhost:9200/_snapshot/repo_name/snapshot_name/_restore
 
 ### Auto backup to S3 repositoriy
 
-Before backup, you need to install python-paramiko
+ - Before backup, you need to install python-paramiko
 
 ```sudo apt-get install python-paramiko```
 
