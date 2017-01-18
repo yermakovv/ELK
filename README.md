@@ -47,7 +47,7 @@ The logstash configuration is stored in ```logstash/config/logstash.conf```.
 
 The Elasticsearch container is using the shipped configuration and it is not exposed by default.
 
-If you want to override the default configuration, create a file elasticsearch/config/elasticsearch.yml and add your configuration in it.
+If you want to override the default configuration, create a file ```elasticsearch/config/elasticsearch.yml``` and add your configuration in it.
 
 ### Logstash configuration
 
