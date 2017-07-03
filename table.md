@@ -5,7 +5,7 @@
 
 
 
-<table>
+<table width="460" height="20">
   <tr>
     <td>One</td>
     <td>Two</td>
