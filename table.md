@@ -1,8 +1,15 @@
---------------------------------------------------
-| No | Sadly        | There is none              |
---------------------------------------------------
-| Except this, which is a poor alternative       |
---------------------------------------------------
-| There really      | should be one              |
---------------------------------------------------
-
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+    <td>Three</td>
+  </tr>
+  <tr>
+    <td colspan="3">Three</td>
+  </tr>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+    <td>Three</td>
+  </tr>
+</table>
