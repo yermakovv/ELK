@@ -1,6 +1,6 @@
 
 
-<table width="800">
+<table align="center">
   <tr>
     <td>One</td>
     <td>Two</td>
